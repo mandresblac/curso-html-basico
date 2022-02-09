@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;/*scroll-behavio es el comportamiento del scroll */
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: navy;
+}
+
+/* Así se hace que una imagen sea responsiva, es decir que se adapte al tamaño del dispositivo */
+img, 
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    width: 80%;
+    height: 400px;
+}
